@@ -12,4 +12,6 @@ def f1(x):
     return y
 
 if __name__ == "__main__":
+   x = 10
    k = f1(x)
+   print(k)
