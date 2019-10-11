@@ -1,11 +1,14 @@
 #! /ust/bin/python3
 import os,sys,re
 
+def f2(y):
+    y = y * 2
+    return y
 
-def f1(x)
+def f1(x):
     x = 5
-    return x
-
+    y = f2(x)
+    return y
 
 if __name__ == "__main__":
     f1(x)
