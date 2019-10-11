@@ -1,6 +1,6 @@
 #! /ust/bin/python3
 import os,sys,re
-import subprocess
+#import subprocess
 
 def f2(y):
     y = y * 2
